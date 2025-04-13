@@ -47,6 +47,24 @@ main{
     font-size: 1.5rem;
     font-weight: 300;
 }
+.container-action button  {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 0 0 12px #0009;
+    cursor: pointer;
+    transition: .5s;
+}
+.container-action button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
 footer  {
     display: flex;
     justify-content: end;
@@ -59,20 +77,16 @@ footer a{
     border: 2px solid white;
     display: grid;
     place-content: center;
-}
-footer i {
     color: white;
+    transition: .5s;
+}
+
+footer a:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+footer i {
     font-size: 1.5rem;
 }
 
-.container-action button  {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
-    color: hsl(257, 40%, 49%);
-    width: 200px;
-    height: 60px;
-    background-color: white;
-    border-radius: 32px;
-    border: none;
-    box-shadow: 0 0 12px #0009;
-}
