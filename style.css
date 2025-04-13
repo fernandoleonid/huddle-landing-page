@@ -90,3 +90,34 @@ footer i {
     font-size: 1.5rem;
 }
 
+@media (max-width: 480px) {
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        padding: 24px;
+    }
+    .page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    main  {
+        flex-direction: column;
+        gap: 0;
+    }
+    main img {
+        width: 100%;
+    }
+    .container-action {
+        align-items: center;
+        text-align: center;
+    }
+    .container-action h1{
+        font-size: 1.8rem;
+    }
+    .container-action p {
+        font-size: 1.2rem;
+    }
+    footer{
+        justify-content: center;
+    }
+}
