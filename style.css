@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+
 body{
     height: 100vh;
     background-color: hsl(257, 40%, 49%);
@@ -43,6 +47,24 @@ main{
     font-size: 1.5rem;
     font-weight: 300;
 }
+footer  {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+footer a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: grid;
+    place-content: center;
+}
+footer i {
+    color: white;
+    font-size: 1.5rem;
+}
+
 .container-action button  {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
